@@ -8837,7 +8837,7 @@
         "name": "Vinted - Bug Bounty Program",
         "following": true,
         "minBounty": {
-            "value": 40.0,
+            "value": 20.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -8861,6 +8861,118 @@
         },
         "industry": "Retail",
         "domains": [
+            {
+                "id": "65a4d303-e556-4ffa-b30c-d891352da929",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*sandbox*.vintedgo.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "caca08db-431b-4d15-a5b9-4d9840e26905",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*sandbox*.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0f54db84-70af-4efc-90cb-df33e3be6687",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*old.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "a000dea3-0eb8-45c3-84cf-9905959596db",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*test-escalations.vintedgo.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "89bb69cc-701e-4d3c-9adf-7f04c8b70e1c",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*badger.it.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6d671140-9bcc-45e6-843c-203715206668",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*careers.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "28c4d26c-e5b1-4d9a-b970-358de602e236",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*news.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6f2beae8-06ff-4ac6-8fba-ff685dddd935",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*company.vinted.com",
+                "tier": {
+                    "id": 6,
+                    "value": "Tier 4"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
             {
                 "id": "b7532230-b73c-4e1a-926c-75798eaf39fa",
                 "type": {
@@ -35061,8 +35173,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
