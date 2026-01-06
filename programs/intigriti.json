@@ -8837,7 +8837,7 @@
         "name": "Vinted - Bug Bounty Program",
         "following": true,
         "minBounty": {
-            "value": 10.0,
+            "value": 40.0,
             "currency": "EUR"
         },
         "maxBounty": {
@@ -8862,6 +8862,20 @@
         "industry": "Retail",
         "domains": [
             {
+                "id": "b7532230-b73c-4e1a-926c-75798eaf39fa",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "Scam",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "We welcome and accept reports about scam activity related to our brand/products (e.g., phishing sites, fake domains, impersonation accounts, fraudulent apps, or social engineering campaigns). Please include clear evidence (URLs, screenshots, message headers, transaction details where applicable), steps to reproduce/verify, and the estimated impact so we can validate and take action quickly.",
+                "requiredSkills": []
+            },
+            {
                 "id": "8bc69d23-2aae-43f3-a09b-0e8b60cfac0a",
                 "type": {
                     "id": 3,
@@ -8869,8 +8883,8 @@
                 },
                 "endpoint": "632064380",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "iOS application for Vinted",
                 "requiredSkills": []
@@ -8883,8 +8897,8 @@
                 },
                 "endpoint": "fr.vinted",
                 "tier": {
-                    "id": 4,
-                    "value": "Tier 1"
+                    "id": 3,
+                    "value": "Tier 2"
                 },
                 "description": "Android application for Vinted",
                 "requiredSkills": []
@@ -8897,8 +8911,8 @@
                 },
                 "endpoint": "*.vinted.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -8911,8 +8925,8 @@
                 },
                 "endpoint": "*.vinted.fr",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -8925,8 +8939,8 @@
                 },
                 "endpoint": "*.vintedgo.com",
                 "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
+                    "id": 4,
+                    "value": "Tier 1"
                 },
                 "description": "Vinted shipping website",
                 "requiredSkills": []
@@ -8939,8 +8953,8 @@
                 },
                 "endpoint": "*.homerr.com",
                 "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": "One of our sister company for shipping",
                 "requiredSkills": []
