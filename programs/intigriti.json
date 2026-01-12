@@ -31311,6 +31311,29 @@
                 ]
             },
             {
+                "id": "5de1c650-744a-48c5-95cd-dc0e9d9fe250",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/action-doctl",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "GitHub Actions for DigitalOcean - doctl",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
+            },
+            {
                 "id": "dd41bc97-b02d-43fc-8148-5f138775e2d2",
                 "type": {
                     "id": 8,
@@ -31578,7 +31601,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community. ",
+                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
                 "requiredSkills": [
                     {
                         "id": "source_code_review",
