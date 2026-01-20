@@ -14776,8 +14776,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -31153,6 +31153,87 @@
                 ]
             },
             {
+                "id": "b25618fb-c259-40b7-a006-891fb30db2a2",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "marketplace.digitalocean.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. Security issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\n\nPlease reach out to us at security@digitalocean.com for facilitation.",
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    },
+                    {
+                        "id": "supply_chain",
+                        "name": "Supply Chain"
+                    }
+                ]
+            },
+            {
+                "id": "a04c55a1-def4-4bc2-8a4a-362d881e0038",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "www.digitalocean.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "940e5357-57f9-4bd3-8325-d65542e6c5a9",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.snapshooter.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "SnapShooter is a cloud backup and recovery solution",
+                "requiredSkills": [
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
+            },
+            {
                 "id": "53f03f9c-f8ce-4376-8430-7e45e4c84be9",
                 "type": {
                     "id": 8,
@@ -31207,87 +31288,6 @@
                     {
                         "id": "source_code_review",
                         "name": "Source Code Review"
-                    }
-                ]
-            },
-            {
-                "id": "b25618fb-c259-40b7-a006-891fb30db2a2",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "marketplace.digitalocean.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. Security issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\n\nPlease reach out to us at security@digitalocean.com for facilitation.",
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    },
-                    {
-                        "id": "supply_chain",
-                        "name": "Supply Chain"
-                    }
-                ]
-            },
-            {
-                "id": "940e5357-57f9-4bd3-8325-d65542e6c5a9",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.snapshooter.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": "SnapShooter is a cloud backup and recovery solution",
-                "requiredSkills": [
-                    {
-                        "id": "cloud_hacking",
-                        "name": "Cloud Hacking"
-                    },
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "a04c55a1-def4-4bc2-8a4a-362d881e0038",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "www.digitalocean.com",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
                     }
                 ]
             },
@@ -31430,6 +31430,29 @@
                     {
                         "id": "source_code_review",
                         "name": "Source Code Review"
+                    }
+                ]
+            },
+            {
+                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
+                "type": {
+                    "id": 8,
+                    "value": "SourceCode"
+                },
+                "endpoint": "https://github.com/digitalocean/do-markdownit",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
+                "requiredSkills": [
+                    {
+                        "id": "source_code_review",
+                        "name": "Source Code Review"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
                     }
                 ]
             },
@@ -31587,29 +31610,6 @@
                     {
                         "id": "api",
                         "name": "API"
-                    },
-                    {
-                        "id": "web_hacking",
-                        "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "b9245781-2b1f-4886-884d-56b1ae915584",
-                "type": {
-                    "id": 8,
-                    "value": "SourceCode"
-                },
-                "endpoint": "https://github.com/digitalocean/do-markdownit",
-                "tier": {
-                    "id": 2,
-                    "value": "Tier 3"
-                },
-                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
-                "requiredSkills": [
-                    {
-                        "id": "source_code_review",
-                        "name": "Source Code Review"
                     },
                     {
                         "id": "web_hacking",
