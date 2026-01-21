@@ -31015,7 +31015,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Please review __*.digitalocean.com Out of Scope Subdomains__ section below.",
+                "description": "Please review the __*.digitalocean.com Out of Scope Subdomains__ section below to ensure testing of only in-scope domain assets.",
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -31425,7 +31425,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. Security issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\n\nPlease reach out to us at security@digitalocean.com for facilitation.",
+                "description": "Note that marketplace 1-click apps and add-ons are maintained by our partnered vendors and are out of scope. \nPlease see the \"Out of Scope\" section below for more info.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -31479,7 +31479,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "SnapShooter is a cloud backup and recovery solution",
+                "description": "SnapShooter is a cloud backup and recovery solution.",
                 "requiredSkills": [
                     {
                         "id": "cloud_hacking",
@@ -31506,7 +31506,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "A daemon that helps collect system metrics from droplets.",
+                "description": "A daemon that helps collect system metrics from droplets",
                 "requiredSkills": [
                     {
                         "id": "cloud_hacking",
@@ -31564,7 +31564,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "The official command line interface for the DigitalOcean API.",
+                "description": "The official command line interface for the DigitalOcean API",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -31656,7 +31656,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "DigitalOcean's official Terraform provider.",
+                "description": "DigitalOcean's official Terraform provider",
                 "requiredSkills": [
                     {
                         "id": "cloud_hacking",
@@ -31683,7 +31683,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "golang-only network block device client",
+                "description": "Golang-only network block device client",
                 "requiredSkills": [
                     {
                         "id": "network_infrastructure",
@@ -31706,7 +31706,7 @@
                     "id": 2,
                     "value": "Tier 3"
                 },
-                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community.",
+                "description": "Markdown plugin run against all user-submitted content on https://digitalocean.com/community",
                 "requiredSkills": [
                     {
                         "id": "source_code_review",
@@ -31921,7 +31921,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny database created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
                 "requiredSkills": []
             },
             {
@@ -31935,7 +31935,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Spaces buckets created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Spaces buckets created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
                 "requiredSkills": []
             },
             {
@@ -31949,7 +31949,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Functions created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Functions created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -31976,7 +31976,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Kubernetes clusters created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Kubernetes clusters created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
                 "requiredSkills": []
             },
             {
@@ -31990,7 +31990,21 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Apps created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny Apps created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
+                "requiredSkills": []
+            },
+            {
+                "id": "268e5dd2-bae1-4550-8143-35bac91ba34d",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "registry.digitalocean.com/*",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny container registries created inside your own account on this domain are considered in-scope. Use the `cloud.digitalocean.com` asset in that case.",
                 "requiredSkills": []
             },
             {
@@ -32018,7 +32032,7 @@
                     "id": 5,
                     "value": "Out Of Scope"
                 },
-                "description": "The marketplace applications and add-ons are maintained by our partnered vendors. Security issues are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\nPlease reach out to us at security@digitalocean.com for facilitation.",
+                "description": "The marketplace applications and add-ons are maintained by our partnered vendors. \nSecurity issues against these components of the marketplace are not in the scope of this program and ineligible for bounty rewards, but we are happy to help facilitate communications to the application owners.\nPlease reach out to us at security@digitalocean.com for facilitation.",
                 "requiredSkills": [
                     {
                         "id": "api",
@@ -32050,20 +32064,6 @@
                     "value": "Out Of Scope"
                 },
                 "description": "All open source projects hosted by DigitalOcean not otherwise listed as in-scope are out-of-scope.",
-                "requiredSkills": []
-            },
-            {
-                "id": "268e5dd2-bae1-4550-8143-35bac91ba34d",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "registry.digitalocean.com/*",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": "Customers' resources are hosted underneath this domain, so the entire domain should be considered out-of-scope.\n\nAny container registries created inside your own account on this domain are considered in-scope. Use the cloud.digitalocean.com asset in that case.",
                 "requiredSkills": []
             }
         ]
