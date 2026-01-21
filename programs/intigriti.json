@@ -1307,8 +1307,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -16388,8 +16388,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -31015,7 +31015,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "Public IPs belonging to AS14061(DigitalOcean, LLC) are assigned to DigitalOcean customers and should be considered out of scope.\n\n**The following subdomains are out of scope:**\n\n* cloudsupport.digitalocean.com\n* ideas.digitalocean.com\n* investor.digitalocean.com\n* investors.digitalocean.com\n* ir.digitalocean.com\n* deploy.digitalocean.com\n* pilot.digitalocean.com\n* rewards.digitalocean.com\n* anchor.digitalocean.com\n* waves.digitalocean.com\n* brand.digitalocean.com\n* go.digitalocean.com\n* groove.digitalocean.com\n* email.digitalocean.com\n* status.digitalocean.com\n* events.digitalocean.com\n* helpdesk.digitalocean.com\n* mirrors.digitalocean.com\n* segment.digitalocean.com\n* tracking.digitalocean.com",
+                "description": "Public IPs belonging to AS14061(DigitalOcean, LLC) are assigned to DigitalOcean customers and should be considered out of scope.\n\n**The following subdomains are out of scope:**\n\n* anchor.digitalocean.com\n* brand.digitalocean.com\n* cloudsupport.digitalocean.com\n* deploy.digitalocean.com\n* email.digitalocean.com\n* events.digitalocean.com\n* go.digitalocean.com\n* groove.digitalocean.com\n* helpdesk.digitalocean.com\n* ideas.digitalocean.com\n* investor.digitalocean.com\n* investors.digitalocean.com\n* ir.digitalocean.com\n* mirrors.digitalocean.com\n* pilot.digitalocean.com\n* rewards.digitalocean.com\n* segment.digitalocean.com\n* status.digitalocean.com\n* tracking.digitalocean.com\n* waves.digitalocean.com",
                 "requiredSkills": [
                     {
                         "id": "web_hacking",
@@ -31118,7 +31118,7 @@
                     "id": 3,
                     "value": "Tier 2"
                 },
-                "description": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.",
+                "description": "This asset follows the same testing guidelines as `cloud.digitalocean.com`.\n\n* While performing your research, please limit the scope of testing to only the accounts or resources that are owned by you.\n* If you discover a vulnerability that could allow you to bypass existing controls and gain access to other accounts, **please do not take any further action** against those accounts or data that are not owned by you.\n\nNote that we consider `cloud.digitalocean.com` and `amd.digitalocean.com` as having functionally the same backend codebase.",
                 "requiredSkills": [
                     {
                         "id": "cloud_hacking",
