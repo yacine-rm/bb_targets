@@ -14092,8 +14092,8 @@
                 },
                 "endpoint": "elevate.pdm.sqills.team",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
@@ -14106,8 +14106,8 @@
                 },
                 "endpoint": "api.elevate.pdm.sqills.team",
                 "tier": {
-                    "id": 1,
-                    "value": "No Bounty"
+                    "id": 5,
+                    "value": "Out Of Scope"
                 },
                 "description": null,
                 "requiredSkills": []
