@@ -7150,8 +7150,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
@@ -13615,8 +13615,8 @@
             "value": "Registered"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -17176,6 +17176,52 @@
         ]
     },
     {
+        "id": "6cd5002c-c486-4184-b723-e3a548b312e3",
+        "handle": "challenge0226",
+        "name": "Challenge 0226",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0226/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "403bcc6b-28bb-4aac-a0af-9f78ebaf2554",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://challenge-0226.intigriti.io",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "6d1b587f-8d04-471f-939e-0ed401537c51",
         "handle": "zowonen",
         "name": "ZOwonen",
@@ -17362,6 +17408,34 @@
                 },
                 "description": "Additional product offerings and bespoke systems that integrate with the S3 Passenger product.\n\nThe format for s3p.cloud domain names is: [environment-name].[product name].s3p.cloud. Only sqills internal environments (environment-name prefixed with \"sqills-\") are in scope for this program.",
                 "requiredSkills": []
+            },
+            {
+                "id": "ee2c53e9-c24b-49d2-a4ae-9b0731816e57",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://admin.sqills-bugbounty-test.cloud.sqills.com/api/v3/intelligence",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "0771e43a-8661-4ed0-a4f1-9aaa095d9b87",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://admin.sqills-bugbounty-test.cloud.sqills.com/en-GB/intelligence",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
             }
         ]
     },
@@ -17383,8 +17457,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
