@@ -17436,6 +17436,20 @@
                 },
                 "description": null,
                 "requiredSkills": []
+            },
+            {
+                "id": "aee5a93e-4029-407b-aacf-5635fbf3be50",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://api.sqills-bugbounty-test.cloud.sqills.com/api/v3/intelligence",
+                "tier": {
+                    "id": 2,
+                    "value": "Tier 3"
+                },
+                "description": null,
+                "requiredSkills": []
             }
         ]
     },
