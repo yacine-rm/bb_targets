@@ -9572,13 +9572,18 @@
                     "id": 3,
                     "value": "iOS"
                 },
-                "endpoint": "632064380",
+                "endpoint": "Vinted: Shop & sell pre-loved",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
                 "description": "iOS application for Vinted",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "e9cb7206-9108-465c-a4c0-07322ecaccd2",
@@ -9586,13 +9591,18 @@
                     "id": 2,
                     "value": "Android"
                 },
-                "endpoint": "fr.vinted",
+                "endpoint": "Vinted: Shop & sell pre-loved",
                 "tier": {
                     "id": 3,
                     "value": "Tier 2"
                 },
                 "description": "Android application for Vinted",
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
             },
             {
                 "id": "f3ce16b5-5e42-4daf-8cd5-6ef61637db2b",
