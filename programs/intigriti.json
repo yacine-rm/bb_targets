@@ -14228,6 +14228,122 @@
         ]
     },
     {
+        "id": "5ae36363-b875-4a56-9ecc-ebb7db2fa530",
+        "handle": "coveopublicbugbounty",
+        "name": "Coveo Public Bug Bounty",
+        "following": false,
+        "minBounty": {
+            "value": 100.0,
+            "currency": "USD"
+        },
+        "maxBounty": {
+            "value": 5500.0,
+            "currency": "USD"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/coveo/coveopublicbugbounty/detail"
+        },
+        "industry": "Software",
+        "domains": [
+            {
+                "id": "6bad4a05-801b-44ed-8707-8a6cab35911e",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "platform.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": "*Requires organization creation see FAQ*\n\nThe primary platform endpoint. You will be redirected to the other endpoits listed below depending on the features you use.\n\n# Non exhaustive list of possible starting points:\n* [Crawlers](https://docs.coveo.com/en/mc2a1538/index-content/crawler-directives) that will visit your malicious pages\n* RCE Sandbox escape from [Indexing Pipeline Extensions](https://docs.coveo.com/en/1556/index-content/indexing-pipeline-extension-overview)\n* In house [OAuth/SAML authorization server](https://docs.coveo.com/en/158/manage-an-organization/use-the-authorization-server-api) vulnerabilities\n* [Search document access permissions](https://docs.coveo.com/en/2007/index-content/permission-sets) violations\n* [Ecommerce](https://docs.coveo.com/en/1499/coveo-for-commerce/coveo-for-commerce) and [Merchandising hub](https://docs.coveo.com/en/o6lb0453/coveo-merchandising-hub/merchandising-hub-interface) vulnerabilities",
+                "requiredSkills": []
+            },
+            {
+                "id": "fe4eef18-1f86-40b6-9cdd-f4605c48076c",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "analytics.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "4ce0fdcf-bea3-4024-850b-7deabce6d704",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "knowledge.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "677675c3-615c-4cc9-9f90-63abe84c5926",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "commerce.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "5f12ed35-d933-460e-8338-db3b4aaa9efe",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "static.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "6428bb73-cfc9-429b-a1ba-c0c3ffe636f7",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.cloud.coveo.com",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "5ae71f99-d61e-42d2-b74e-b218530bb3b5",
         "handle": "mobilevikings",
         "name": "Mobile Vikings",
@@ -22382,8 +22498,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
