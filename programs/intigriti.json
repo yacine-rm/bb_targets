@@ -19698,6 +19698,94 @@
         ]
     },
     {
+        "id": "8a5bf4a3-3183-4e2a-aa5e-20f71efe7f4b",
+        "handle": "water-linkvdp",
+        "name": "Water-Link VDP",
+        "following": false,
+        "minBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "maxBounty": {
+            "value": 0.0,
+            "currency": "EUR"
+        },
+        "confidentialityLevel": {
+            "id": 4,
+            "value": "Public"
+        },
+        "status": {
+            "id": 3,
+            "value": "Open"
+        },
+        "type": {
+            "id": 1,
+            "value": "Bug Bounty"
+        },
+        "webLinks": {
+            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/waterlink/water-linkvdp/detail"
+        },
+        "industry": "Energy, Utilities & Waste",
+        "domains": [
+            {
+                "id": "23f3433e-8112-4e0f-ab73-10060e510bbf",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.water-link.be/",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "our main domain and website",
+                "requiredSkills": []
+            },
+            {
+                "id": "b90f71ef-efa5-4f59-8aa6-dd1b1dda5448",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.aww.be",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": "an older domain, with some accounts still linked to it",
+                "requiredSkills": []
+            },
+            {
+                "id": "cb3dd9fc-ee7d-487a-8795-d0a621ca6006",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.waterstoring.be/",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "2fdf2423-70d1-4bb3-8c71-7b07f17fbb32",
+                "type": {
+                    "id": 1,
+                    "value": "Url"
+                },
+                "endpoint": "https://www.water-link-jaarverslag.be",
+                "tier": {
+                    "id": 1,
+                    "value": "No Bounty"
+                },
+                "description": null,
+                "requiredSkills": []
+            }
+        ]
+    },
+    {
         "id": "8a9c91c0-dd4f-4ed3-bb65-3c6b68e76b24",
         "handle": "watsons",
         "name": "Watsons",
