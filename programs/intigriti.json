@@ -6950,8 +6950,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -15249,8 +15249,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 3,
-            "value": "Open"
+            "id": 4,
+            "value": "Suspended"
         },
         "type": {
             "id": 1,
@@ -17427,52 +17427,6 @@
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            }
-        ]
-    },
-    {
-        "id": "6cd5002c-c486-4184-b723-e3a548b312e3",
-        "handle": "challenge0226",
-        "name": "Challenge 0226",
-        "following": false,
-        "minBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "maxBounty": {
-            "value": 0.0,
-            "currency": "EUR"
-        },
-        "confidentialityLevel": {
-            "id": 4,
-            "value": "Public"
-        },
-        "status": {
-            "id": 3,
-            "value": "Open"
-        },
-        "type": {
-            "id": 1,
-            "value": "Bug Bounty"
-        },
-        "webLinks": {
-            "detail": "https://app.intigriti.com/auth/dashboard?redirect=/programs/intigriti/challenge0226/detail"
-        },
-        "industry": "Software",
-        "domains": [
-            {
-                "id": "403bcc6b-28bb-4aac-a0af-9f78ebaf2554",
-                "type": {
-                    "id": 1,
-                    "value": "Url"
-                },
-                "endpoint": "https://challenge-0226.intigriti.io",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
                 },
                 "description": null,
                 "requiredSkills": []
