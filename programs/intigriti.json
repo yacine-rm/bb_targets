@@ -9661,7 +9661,7 @@
                 "requiredSkills": []
             },
             {
-                "id": "d92df62f-8266-4399-80a1-9a925cee3795",
+                "id": "a845d217-b3ec-4336-b155-c3617e81de15",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -9675,7 +9675,7 @@
                 "requiredSkills": []
             },
             {
-                "id": "8d599810-67ba-441f-a4e8-d7355a30b755",
+                "id": "57ba676a-dafd-49eb-b6b3-d8214a0392c9",
                 "type": {
                     "id": 1,
                     "value": "Url"
@@ -9703,26 +9703,12 @@
                 "requiredSkills": []
             },
             {
-                "id": "d37c2b40-d892-4e26-bf12-4e51881c5825",
+                "id": "ec1c58b7-fdc4-40bf-93a3-f7dc06bd3daf",
                 "type": {
                     "id": 7,
                     "value": "Wildcard"
                 },
                 "endpoint": "*vintedpay.com",
-                "tier": {
-                    "id": 5,
-                    "value": "Out Of Scope"
-                },
-                "description": null,
-                "requiredSkills": []
-            },
-            {
-                "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
-                "type": {
-                    "id": 7,
-                    "value": "Wildcard"
-                },
-                "endpoint": "*.people.vinted.*",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -9737,6 +9723,20 @@
                     "value": "Wildcard"
                 },
                 "endpoint": "*.vinted.ca ",
+                "tier": {
+                    "id": 5,
+                    "value": "Out Of Scope"
+                },
+                "description": null,
+                "requiredSkills": []
+            },
+            {
+                "id": "34e85458-dc16-4db2-99f5-01d6736303a0",
+                "type": {
+                    "id": 7,
+                    "value": "Wildcard"
+                },
+                "endpoint": "*.people.vinted.*",
                 "tier": {
                     "id": 5,
                     "value": "Out Of Scope"
@@ -10114,18 +10114,35 @@
         "industry": "Retail",
         "domains": [
             {
-                "id": "a8fab8d5-eacc-4bb4-a9ff-0b5061517508",
+                "id": "4aa3d2bd-d38a-4d0e-b83d-62eee138f178",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "www.coolblue.de",
+                "endpoint": "www.coolblue.nl",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
                 },
                 "description": null,
-                "requiredSkills": []
+                "requiredSkills": [
+                    {
+                        "id": "ai_llm",
+                        "name": "AI / LLM"
+                    },
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
+                    {
+                        "id": "cloud_hacking",
+                        "name": "Cloud Hacking"
+                    },
+                    {
+                        "id": "web_hacking",
+                        "name": "Web Hacking"
+                    }
+                ]
             },
             {
                 "id": "cb3039e7-da69-4f28-9932-4bfbe38f26df",
@@ -10159,12 +10176,12 @@
                 ]
             },
             {
-                "id": "4aa3d2bd-d38a-4d0e-b83d-62eee138f178",
+                "id": "a8fab8d5-eacc-4bb4-a9ff-0b5061517508",
                 "type": {
                     "id": 1,
                     "value": "Url"
                 },
-                "endpoint": "www.coolblue.nl",
+                "endpoint": "www.coolblue.de",
                 "tier": {
                     "id": 4,
                     "value": "Tier 1"
@@ -10186,29 +10203,6 @@
                     {
                         "id": "web_hacking",
                         "name": "Web Hacking"
-                    }
-                ]
-            },
-            {
-                "id": "fb1daeef-729b-48ad-b973-6051525b39cb",
-                "type": {
-                    "id": 6,
-                    "value": "Other"
-                },
-                "endpoint": "mobile-api.coolblue-production.eu",
-                "tier": {
-                    "id": 3,
-                    "value": "Tier 2"
-                },
-                "description": null,
-                "requiredSkills": [
-                    {
-                        "id": "api",
-                        "name": "API"
-                    },
-                    {
-                        "id": "mobile_hacking",
-                        "name": "Mobile Hacking"
                     }
                 ]
             },
@@ -10244,6 +10238,29 @@
                 },
                 "description": null,
                 "requiredSkills": [
+                    {
+                        "id": "mobile_hacking",
+                        "name": "Mobile Hacking"
+                    }
+                ]
+            },
+            {
+                "id": "fb1daeef-729b-48ad-b973-6051525b39cb",
+                "type": {
+                    "id": 6,
+                    "value": "Other"
+                },
+                "endpoint": "mobile-api.coolblue-production.eu",
+                "tier": {
+                    "id": 3,
+                    "value": "Tier 2"
+                },
+                "description": null,
+                "requiredSkills": [
+                    {
+                        "id": "api",
+                        "name": "API"
+                    },
                     {
                         "id": "mobile_hacking",
                         "name": "Mobile Hacking"
@@ -39928,8 +39945,8 @@
             "value": "Public"
         },
         "status": {
-            "id": 4,
-            "value": "Suspended"
+            "id": 3,
+            "value": "Open"
         },
         "type": {
             "id": 1,
