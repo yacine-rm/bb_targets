@@ -35388,7 +35388,7 @@
         "name": "AMD Product Security Bug Bounty Program",
         "following": false,
         "minBounty": {
-            "value": 0.0,
+            "value": 500.0,
             "currency": "USD"
         },
         "maxBounty": {
@@ -35462,8 +35462,8 @@
                 },
                 "endpoint": "No Bounty",
                 "tier": {
-                    "id": 6,
-                    "value": "Tier 4"
+                    "id": 1,
+                    "value": "No Bounty"
                 },
                 "description": "* Optional tools\n* Installer issues\n* Product-independent software\n* Software for out-of-scope products and technologies\n* *see below for a comprehensive list and descriptions*",
                 "requiredSkills": []
